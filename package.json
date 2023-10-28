@@ -1,0 +1,14 @@
+{
+	"name": "mini-project",
+	"version": "1.0.0",
+	"description": "Mini Project membuat web server dengan menerapkan CRUD",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon index.js"
+	},
+	"author": "Amali Radifan",
+	"license": "ISC",
+	"dependencies": {
+		"nodemon": "^3.0.1"
+	}
+}
