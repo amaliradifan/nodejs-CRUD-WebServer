@@ -28,9 +28,10 @@ const requestListener = (req, resp) => {
 			});
 			req.on("end", () => {
 				body = JSON.parse(body);
+                data.push(body);
 				const responseJSON = {
 					message: "Berhasil Menambahkan Data",
-					data: [...data, body],
+					data
 				};
 				return resp.end(JSON.stringify(responseJSON));
 			});
